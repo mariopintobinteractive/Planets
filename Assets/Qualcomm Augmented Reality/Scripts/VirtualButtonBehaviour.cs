@@ -16,4 +16,11 @@ using UnityEngine;
 /// </summary>
 public class VirtualButtonBehaviour : VirtualButtonAbstractBehaviour
 {
+	public void OnButtonPressed(VirtualButtonBehaviour vb){
+		Debug.Log ("Pressed");
+	}
+	
+	public void OnButtonReleased(VirtualButtonBehaviour vb){
+		Debug.Log("Released");
+	}
 }

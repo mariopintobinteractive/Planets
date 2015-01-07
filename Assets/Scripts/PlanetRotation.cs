@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PlanetRotation : MonoBehaviour {
-	Vector3 rotation = new Vector3(0,1,0);
+	Vector3 rotation = new Vector3(0,0.2f,0);
 
 	// Use this for initialization
 	void Start () {
